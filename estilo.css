@@ -1,0 +1,39 @@
+.logo {
+    max-width: 10%;
+}
+
+header {
+    background-image: url(img/capadefundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: slide;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes slide {
+    0% {background-image: url(img/capadefundo.jpg);}
+    25% {background-image: url(classes/img/marreta.jpg);}
+    50% {background-image: url(classes/img/escudo.jpg);}
+    75% {background-image: url(classes/img/estase.jpg);}
+    100% {background-image: url(classes/img/filamento.jpg);}
+}
+
+.nav-item {
+    padding: 0 20px 0 20px;
+}
+
+form {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: bolder;
+}
+
+form textarea {
+    resize: none;
+}
